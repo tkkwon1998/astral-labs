@@ -212,28 +212,32 @@ and (max-device-width : 480px) {
   }
   
   .back {
-    display: inline-block;
     width: 100%;
     color: #FFF;
     position: absolute;
     top: 40%;
     text-align: center;
-    margin: -10px -75px 0 0;
     font-size: 30px;
     font-family: sans-serif;
     font-weight: bold;
   
   }
 
+  .cent {
+    width:100%;
+    display: flex;
+    justify-content: center;
+  }
+
 
   .para-2 {
-    display: inline-block;
-    width: 100%;
+    width: 80%;
+
+
     color: #FFF;
     position: absolute;
     top: 60%;
     text-align: center;
-    margin: -10px -75px 0 0;
     font-size: 30px;
     font-family: sans-serif;
     font-weight: bold;
@@ -242,13 +246,12 @@ and (max-device-width : 480px) {
   
   
   .para {
-    display: inline-block;
-    width: 100%;
+    width: 80%;
+
     color: #FFF;
     position: absolute;
     top: 50%;
     text-align: center;
-    margin: -10px -75px 0 0;
     font-size: 30px;
     font-family: sans-serif;
     font-weight: bold;
@@ -262,35 +265,35 @@ and (max-device-width : 480px) {
     height: 100%;
     background: linear-gradient(to bottom, #020107 0%, #201b46 100%);
   }
-  .container .text {
+  .text {
     color: #FFF;
     position: absolute;
     top: 40%;
-    left: 48%;
+    left: 42%;
     margin: -10px -75px 0 0;
-    font-size: 30px;
+    font-size: 40px;
     font-family: sans-serif;
     font-weight: bold;
   }
   
-  .container .about {
+  .about {
     color: #FFF;
     position: absolute;
     top: 50%;
-    left: 48%;
+    left: 42%;
     margin: -10px -75px 0 0;
-    font-size: 30px;
+    font-size: 40px;
     font-family: sans-serif;
     font-weight: bold;
   }
   
-  .container .contact {
+  .contact {
     color: #FFF;
     position: absolute;
     top: 60%;
-    left: 48%;
+    left: 42%;
     margin: -10px -75px 0 0;
-    font-size: 30px;
+    font-size: 40px;
     font-family: sans-serif;
     font-weight: bold;
   }
